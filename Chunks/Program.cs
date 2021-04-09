@@ -55,7 +55,7 @@ namespace Chunks
              * ==================================================================================================================================
              */
 
-            PrintLog("\nSelecting a random chunk and printing it's items");
+            PrintLog("\nSelecting a random chunk and printing its items");
 
             int randomChunk = new Random().Next(0, chunks.Length);
             Console.WriteLine("Items from Chunk #{0}:", randomChunk);
